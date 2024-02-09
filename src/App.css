@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; ;
+}
+
+
+.wrapper {
+  width: 100%;
+}
+
+.Time{
+  text-align: center;
+  margin-bottom: 30%;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.nadpis{
+  font-size: 55px;
+}
+
+.emptyTask{
+  text-align: center;
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.taskSection{
+  display: flex;
+  justify-content: center;
+}
+
+.task_container{
+  text-align: center;
+}
+
+.add_task{
+  font-size: 30px;
+  width: 20%;
+  height: 50%;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+}
+
+.popUp{
+  width: 100%;
+}
+
+.newTaskinput{
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.task_parag{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.inputTask{
+  width: 30%;
+  height: 5vh;
+  display: flex;
+  margin-bottom: 6px;
+  padding-left: 5px;
+  font-size: 15px;
+  
+  
+}
+
+.btnSubmit{
+  width: 29vh;
+  height: 7vh;
+  background-color:black;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
